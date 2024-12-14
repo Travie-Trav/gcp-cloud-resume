@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #181818;
+}
+
+body {
+  background-color: #fff;
+  height: 95vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+section > h2 {
+  width: 100%;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.3em;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.body-container {
+  width: 65%;
+  margin: 1em auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 2em;
+}
+
+.title-information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.date {
+  text-align: right;
+}
+
+/* Summary Styles */
+#summary p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Experience Styles */
+#experience ul {
+  margin-left: 2em;
+  font-size: 1.1rem;
+}
+
+/* Education Styles */
+
+/* Skills */
+#skills ul {
+  columns: 2;
+  margin-left: 2em;
+  font-size: 1.2rem;
+}

@@ -3,21 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Travis J's GCP Resume</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body class="body-container">
     <header>
       <h1>Travis Jones</h1>
       <p>
-        <a href="mailto:jones.trav12@gmail.com">jones.trav12@gmail.com</a> | (314)
-        973-6530
+        <a href="mailto:jones.trav12@gmail.com">jones.trav12@gmail.com</a>
       </p>
     </header>
-    <main>
-      <section class="summary">
+    <main class="container">
+      <section id="summary" aria-labelledby="summary">
         <h2>Summary of Qualifications</h2>
         <p>
           Dedicated and results-oriented professional with a proven track record of
@@ -28,18 +27,20 @@
           forward-thinking organization.
         </p>
       </section>
-      <section class="experience">
+      <section id="experience" aria-labelledby="experience">
         <h2>Experience</h2>
-        <section class="most-recent-role">
-          <div class="role">
-            <h3>Technical Product Advisor | Equifax Inc.</h3>
-            <h3>Technical Product Consultant</h3>
-            <h3>Technical Product Analyst</h3>
-          </div>
-          <div class="date">
-            <h3>January 2024 - Present</h3>
-            <h3>December 2020 - January 2024</h3>
-            <h3>October 2019 - December 2020</h3>
+        <section class="latest-role">
+          <div class="title-information">
+            <div class="title">
+              <h3>Technical Product Advisor | Equifax Inc.</h3>
+              <h3>Technical Product Consultant</h3>
+              <h3>Technical Product Analyst</h3>
+            </div>
+            <div class="date">
+              <h3>January 2024 - Present</h3>
+              <h3>December 2020 - January 2024</h3>
+              <h3>October 2019 - December 2020</h3>
+            </div>
           </div>
           <ul>
             <li>
@@ -71,14 +72,20 @@
               scalability.
             </li>
             <li>Document casework and resolution process within Salesforce CRM.</li>
+            <li>
+              Leverage the Jira platform for project management, applying agile
+              methodologies in collaboration with the software development team.
+            </li>
           </ul>
         </section>
         <section class="next-role">
-          <div class="role">
-            <h3>Service Desk Analayst | Intelliteach, Inc.</h3>
-          </div>
-          <div class="date">
-            <h3>October 2016 - March 2019</h3>
+          <div class="title-information">
+            <div class="title">
+              <h3>Service Desk Analyst | Intelliteach, Inc.</h3>
+            </div>
+            <div class="date">
+              <h3>October 2016 - March 2019</h3>
+            </div>
           </div>
           <ul>
             <li>Initial contact for reporting technical issues.</li>
@@ -101,38 +108,43 @@
           </ul>
         </section>
       </section>
-      <section class="education">
+      <section id="education" aria-labelledby="education">
         <h2>Education/Certifications</h2>
-        <div class="role">
-          <h3>McCluer Senior High School <span>| High School Diploma</span></h3>
-          <h3>LaunchCode <span>| LC101 Programming Course</span></h3>
-          <br />
-          <h3>
-            <a
-              href="https://www.credly.com/badges/6fcc54c3-d6be-4bf8-adbe-8d5c97fa8ec9/public_url"
-              >Google Cloud Certified | Associate Cloud Engineer</a
-            >
-          </h3>
-          <h3>Amazon Web Services | Cloud Practitioner (CLF-C01)</h3>
-        </div>
-        <div class="date">
-          <h3>May 2015</h3>
-          <h3>May 2022 - November 2022</h3>
+        <div class="title-information">
+          <div class="title">
+            <h3>McCluer Senior High School <span>| High School Diploma</span></h3>
+            <h3>LaunchCode <span>| LC101 Programming Course</span></h3>
+            <br />
+            <h3>
+              <a
+                href="https://www.credly.com/badges/6fcc54c3-d6be-4bf8-adbe-8d5c97fa8ec9/public_url"
+                >Google Cloud Certified | Associate Cloud Engineer</a
+              >
+            </h3>
+            <h3>Amazon Web Services | Cloud Practitioner (CLF-C01)</h3>
+          </div>
+          <div class="date">
+            <h3>May 2015</h3>
+            <h3>May 2022 - November 2022</h3>
+          </div>
         </div>
       </section>
-      <section class="skills">
+      <section id="skills" aria-labelledby="skills">
         <h2>Skills</h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
-          <li>Git</li>
+          <li>Python</li>
+          <li>Terraform</li>
+          <li>Git/GitHub</li>
+          <li>Salesforce</li>
+          <li>Jira</li>
           <li>Google Cloud Platform</li>
           <li>Amazon Web Services</li>
         </ul>
       </section>
     </main>
-
     <script src="" async defer></script>
   </body>
 </html>
