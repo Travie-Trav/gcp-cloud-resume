@@ -10,7 +10,8 @@ html {
 
 body {
   background-color: #fff;
-  height: 95vh;
+  min-height: 95vh;
+  max-width: 50%;
 }
 
 header {
@@ -69,5 +70,24 @@ section > h2 {
 #skills ul {
   columns: 2;
   margin-left: 2em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .body-container {
+    width: 90%;
+    margin: 1em auto;
+    padding-bottom: 0.5em;
+  }
+
+  .container {
+    width: 95%;
+    margin: 0.5em auto;
+  }
+
+  body {
+    max-width: 100%;
+  }
 }
