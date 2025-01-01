@@ -8,33 +8,68 @@ html {
   background-color: #181818;
 }
 
-body {
-  background-color: #fff;
-  min-height: 95vh;
-  max-width: 50%;
+/* Hero Section */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 100vh;
+  background-color: #181818;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-header {
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 0.2em;
+}
+
+.counter-paragraph {
+  font-size: 1.2rem;
+  color: #838C95;
+  padding-bottom: 1em;
+}
+
+/* Resume Sections */
+#resume header {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 1.3rem;
 }
 
-section {
+/* #resume h2 {
+  font-size: 2rem
+} */
+
+#resume section {
   margin-bottom: 1em;
 }
 
-section > h2 {
+#resume section > h3 {
   width: 100%;
   padding-bottom: 0.1em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
   border-bottom: 1px solid black;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
-.body-container {
-  width: 65%;
+#resume h4 {
+  font-size: 1.2rem
+}
+
+.resume-container {
+  width: 90%;
   margin: 1em auto;
+  padding: 2em;
+  background-color: #fff;
+  min-height: 95vh;
+  max-width: 65%;
 }
 
 .container {
@@ -56,6 +91,7 @@ section > h2 {
 #summary p {
   text-align: center;
   margin: 0 auto;
+  font-size: 1.2rem;
 }
 
 /* Experience Styles */
@@ -76,9 +112,9 @@ section > h2 {
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
-  .body-container {
-    width: 90%;
-    margin: 1em auto;
+  .resume-container {
+    width: 100%;
+    /* margin: 1em auto; */
     padding-bottom: 0.5em;
   }
 

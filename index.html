@@ -6,18 +6,30 @@
     <title>Travis J's GCP Resume</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="body-container">
-    <header>
-      <h1>Travis Jones</h1>
-      <p>
-        <a href="mailto:jones.trav12@gmail.com">jones.trav12@gmail.com</a>
-      </p>
-    </header>
-    <main class="container">
+  <body>
+    <section class="hero">
+      <h1>Hi, I'm Travis!</h1>
+      <p class="counter-paragraph">and this page has been viewed <a id="counter"></a> times.</p>
+      <!-- <p>
+        This is a simple resume page that showcases my experience, education, and
+        certifications as a technical professional. The page is built using HTML and
+        CSS, and is hosted on Google Cloud Platform (GCP) using Google Cloud Storage.
+      </p> -->
+    </section>
+    <main class="resume-container" id="resume">
+      <header>
+        <h2>Travis Jones</h2>
+        <p>
+          <a href="mailto:jones.trav12@gmail.com">jones.trav12@gmail.com</a>
+        </p>
+      </header>
       <section id="summary" aria-labelledby="summary">
-        <h2>Summary of Qualifications</h2>
+        <h3>Summary of Qualifications</h3>
         <p>
           Dedicated and results-oriented professional with a proven track record of
           delivering expert guidance and support to clients, enhancing their utilization
@@ -26,20 +38,20 @@
           skills to drive client achievements and foster the expansion of a
           forward-thinking organization.
         </p>
-      </section>
+      </section> 
       <section id="experience" aria-labelledby="experience">
-        <h2>Experience</h2>
+        <h3>Experience</h3>
         <section class="latest-role">
           <div class="title-information">
             <div class="title">
-              <h3>Technical Product Advisor | Equifax Inc.</h3>
-              <h3>Technical Product Consultant</h3>
-              <h3>Technical Product Analyst</h3>
+              <h4>Technical Product Advisor | Equifax Inc.</h4>
+              <h4>Technical Product Consultant</h4>
+              <h4>Technical Product Analyst</h4>
             </div>
             <div class="date">
-              <h3>January 2024 - Present</h3>
-              <h3>December 2020 - January 2024</h3>
-              <h3>October 2019 - December 2020</h3>
+              <h4>January 2024 - Present</h4>
+              <h4>December 2020 - January 2024</h4>
+              <h4>October 2019 - December 2020</h4>
             </div>
           </div>
           <ul>
@@ -81,10 +93,10 @@
         <section class="next-role">
           <div class="title-information">
             <div class="title">
-              <h3>Service Desk Analyst | Intelliteach, Inc.</h3>
+              <h4>Service Desk Analyst | Intelliteach, Inc.</h4>
             </div>
             <div class="date">
-              <h3>October 2016 - March 2019</h3>
+              <h4>October 2016 - March 2019</h4>
             </div>
           </div>
           <ul>
@@ -109,31 +121,31 @@
         </section>
       </section>
       <section id="education" aria-labelledby="education">
-        <h2>Education/Certifications</h2>
+        <h3>Education/Certifications</h3>
         <div class="title-information">
           <div class="title">
-            <h3>McCluer Senior High School <span>| High School Diploma</span></h3>
-            <h3>LaunchCode <span>| LC101 Programming Course</span></h3>
+            <h4>McCluer Senior High School <span>| High School Diploma</span></h4>
+            <h4>LaunchCode <span>| LC101 Programming Course</span></h4>
             <br />
-            <h3>
+            <h4><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/B43GY1RCWJ4E1RW7">Amazon Web Services | Cloud Practitioner (CLF-C01)</a></h4>
+            <h4>
               <a
                 href="https://www.credly.com/badges/6fcc54c3-d6be-4bf8-adbe-8d5c97fa8ec9/public_url"
                 >Google Cloud Certified | Associate Cloud Engineer</a
               >
-            </h3>
-            <h3><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/B43GY1RCWJ4E1RW7">Amazon Web Services | Cloud Practitioner (CLF-C01)</a></h3>
+            </h4>
           </div>
           <div class="date">
-            <h3>May 2015</h3>
-            <h3>May 2022 - November 2022</h3>
+            <h4>May 2015</h4>
+            <h4>May 2022 - November 2022</h4>
             <br />
-            <h3>May 2023</h3>
-            <h3>December 2024</h3>
+            <h4>May 2023</h4>
+            <h4>December 2024</h4>
           </div>
         </div>
       </section>
       <section id="skills" aria-labelledby="skills">
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -148,6 +160,6 @@
         </ul>
       </section>
     </main>
-    <script src="" async defer></script>
+    <script src="./main.js" async defer></script>
   </body>
 </html>
