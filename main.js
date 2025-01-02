@@ -1,9 +1,8 @@
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('load', (event) => {
     getVisitCount()
 });
 
 function getVisitCount() {
-  let count = 30;
   const url = "https://us-central1-gcp-resume-challenge-445002.cloudfunctions.net/get-visit-counter";
   
   fetch(url)
