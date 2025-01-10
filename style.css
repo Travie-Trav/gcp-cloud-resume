@@ -21,7 +21,7 @@ html {
   background-color: #181818;
   color: #fff;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero h1 {
@@ -31,8 +31,12 @@ html {
 
 .counter-paragraph {
   font-size: 1.2rem;
-  color: #838C95;
+  color: #838c95;
   padding-bottom: 1em;
+}
+
+#counter {
+  color: #cc5500;
 }
 
 /* Resume Sections */
@@ -60,7 +64,7 @@ html {
 }
 
 #resume h4 {
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .resume-container {
